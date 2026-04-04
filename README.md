@@ -5,21 +5,18 @@ A Python tool that reads and analyzes real ECG data to detect abnormal heart rhy
 
 ## Description 
 
-This project analyzes real electrocardiogram (ECG) data from the PhysioNet MIT-BIH Arrhythmia Database using Python. It calculates average heart rate, detects abnormal beats, and generates a simple clinical summary. Built to explore real biomedical signal processing using core Python concepts.
+This project analyzes real electrocardiogram (ECG) data from the PhysioNet PTB-XL database, which contains 21,799 clinical records from real patients. It classifies multilingual reports written in German, Swedish, and English into 8 cardiac conditions including myocardial infarction, atrial fibrillation, bradycardia, and tachycardia. The program generates a statistical summary showing the count and percentage of each condition across the entire dataset.
 
 
 ## Features
 
-Reads real clinical ECG data from CSV files
-Calculates average heart rate
-Detects abnormal beats — bradycardia, tachycardia, irregular rhythm
-Generates a clinical summary report
-
+Reads and classifies multilingual ECG reports
+Identifies 8 cardiac conditions
+Generates percentage breakdown across all patients
 
 ## Data Source
 
-ECG data from PhysioNet MIT-BIH Arrhythmia Database — physionet.org/content/mitdb/1.0.0
-
+PTB-XL ECG Database from PhysioNet
 
 ## Technologies
 
@@ -32,5 +29,6 @@ CSV module
 Visualization of ECG signal
 Detection of specific arrhythmia patterns
 Comparison across multiple patients
+
 
 
