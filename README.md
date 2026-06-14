@@ -2,8 +2,8 @@
 
 Two complementary tools for working with the PhysioNet PTB-XL dataset:
 
-ECG Report Classifier — processes the clinical text reports: classifies multilingual diagnostic statements into cardiac conditions across the whole dataset.
-ECG Signal Analyser — processes the raw ECG waveform: detects heartbeats, computes heart rate, and classifies the rhythm.
+- ECG Report Classifier — processes the clinical text reports: classifies multilingual diagnostic statements into cardiac conditions across the whole dataset.
+- ECG Signal Analyser — processes the raw ECG waveform: detects heartbeats, computes heart rate, and classifies the rhythm.
 
 Together they cover both layers of the data: the signal itself and the written interpretation of it.
 
@@ -69,8 +69,8 @@ You will be prompted for a patient ID (1–21799). The program prints the number
   
 ## Limitations
 
-The height threshold is a single global value (half the signal's maximum), so a very tall spike can raise the threshold enough that lower-amplitude real beats are missed.
-The irregularity check uses the spread between the longest and shortest RR interval, which is sensitive to a single outlier beat.
+- The height threshold is a single global value (half the signal's maximum), so a very tall spike can raise the threshold enough that lower-amplitude real beats are missed.
+- The irregularity check uses the spread between the longest and shortest RR interval, which is sensitive to a single outlier beat.
 
 
 ## Possible improvements
