@@ -1,4 +1,4 @@
-ECG Analyser
+## ECG Analyser
 
 Two complementary tools for working with the PhysioNet PTB-XL dataset:
 
