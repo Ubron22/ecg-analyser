@@ -49,6 +49,7 @@ def analyse_ecg(signal, fs):
     print("Beats detected:   ", result["n_beats"])
     print("Average heart rate:", result["avg_bpm"], "bpm")
     print("Classification:   ", result["rhythm"])
+    return result
 
 def visualise_ecg(signal, fs, peaks=None):
     import matplotlib.pyplot as plt
